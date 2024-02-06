@@ -90,7 +90,7 @@ function Footer() {
       </FooterLinksContainer>
       <SocialMedia>
         <SocialMediaWrap>
-          <SocialLogo to={config.footer.logo.url}>
+          <SocialLogo href={config.footer.logo.url}>
             <SocialIcon
               src={require(`../../images/${config.footer.logo.img}`)}
             />

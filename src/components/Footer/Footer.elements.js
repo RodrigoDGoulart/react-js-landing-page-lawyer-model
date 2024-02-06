@@ -150,7 +150,7 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
-export const SocialLogo = styled(Link)`
+export const SocialLogo = styled('a')`
   color: ${config.footer.colors.font};
   justify-self: start;
   cursor: pointer;
