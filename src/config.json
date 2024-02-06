@@ -1,0 +1,210 @@
+{
+  "obs": "colocar imagens em src/images! abaixo colocar somente nome da imagem com extensão",
+  "nav": {
+    "colors": {
+      "background": "#202737",
+      "font": "#fff"
+    },
+    "logo": {
+      "src": "nav-logo.png",
+      "name": "",
+      "url": "#home"
+    },
+    "logo_mobile": {
+      "src": "bd.png"
+    },
+    "links": [
+      {
+        "label": "Home",
+        "url": "#home"
+      },
+      {
+        "label": "Sobre",
+        "url": "#sobre"
+      },
+      {
+        "label": "Ana Duarte",
+        "url": "#duarte"
+      },
+      {
+        "label": "João Barbosa",
+        "url": "#barbosa"
+      }
+    ]
+  },
+  "contents": [
+    {
+      "obs": "style possui valores 1 ou 2",
+      "id": "home",
+      "style": 1,
+      "subtitle": "Advocacia",
+      "title": "Resolvendo seus problemas jurídicos",
+      "description": "Precisa de um advogado? Conheça o Barbosa & Duarte, o escritório que resolve os seus problemas jurídicos com soluções inteligentes, éticas e inovadoras. Atuamos em diversas áreas do Direito, com advogados especializados e experientes. Entre em contato e agende uma consulta gratuita.",
+      "img": {
+        "src": "hd-img.png",
+        "alt": "teste",
+        "width": "300px",
+        "dissappear_on_mobile": true
+      },
+      "btn": {
+        "visible": true,
+        "label": "Agendar consulta",
+        "url": "",
+        "target": "_blank",
+        "colors": {
+          "background": "#C3A985",
+          "background_hover": "#947955",
+          "font": "white",
+          "font_hover": "white"
+        }
+      },
+      "colors": {
+        "subtitle": "#C3A985",
+        "title": "white",
+        "description": "lightgray",
+        "background": "purple",
+        "background_img": "bg-hd.png"
+      }
+    },
+    {
+      "obs": "style possui valores 1 ou 2",
+      "id": "sobre",
+      "style": 1,
+      "subtitle": "Sobre nós",
+      "title": "João Barbosa & Ana Duarte ",
+      "description": "O Barbosa & Duarte é um escritório de advocacia fundado em 2024 por João Barbosa e Ana Duarte, dois advogados apaixonados pelo Direito e pela inovação. Eles atuam em diversas áreas do Direito, como civil, trabalhista, tributário, penal, entre outras, e oferecem soluções jurídicas inteligentes, éticas e inovadoras para defender os direitos dos seus clientes. Eles contam com uma equipe de advogados especializados e experientes, que estão sempre prontos para atender as demandas dos seus clientes.",
+      "img": {
+        "src": "sobre-img.png",
+        "alt": "teste",
+        "width": "500px"
+      },
+      "btn": {
+        "visible": false
+      },
+      "colors": {
+        "subtitle": "#C3A985",
+        "title": "#202737",
+        "description": "gray",
+        "background": "white"
+      }
+    },
+    {
+      "obs": "style possui valores 1 ou 2",
+      "id": "duarte",
+      "style": 2,
+      "subtitle": "Área Penal",
+      "title": "Dra. Ana Duarte",
+      "description": "Ana Duarte é formada em Direito pela Universidade Federal do Rio de Janeiro (UFRJ) e possui mestrado em Direito Penal pela Universidade de Coimbra (Portugal). Ela trabalhou por 8 anos como defensora pública no Rio de Janeiro, onde atuou em casos de grande repercussão e complexidade, defendendo os direitos humanos e a cidadania. Em 2024, ela se mudou para São Paulo e se associou a João Barbosa, com o propósito de criar um escritório de advocacia que combinasse experiência, ética e inovação. Ela é responsável pela área penal do Barbosa & Duarte, atendendo clientes em todo o território nacional.",
+      "img": {
+        "src": "ana-img.png",
+        "alt": "teste",
+        "width": "500px"
+      },
+      "btn": {
+        "visible": false
+      },
+      "colors": {
+        "subtitle": "#C3A985",
+        "title": "white",
+        "description": "white",
+        "background": "#202737"
+      }
+    },
+    {
+      "obs": "style possui valores 1 ou 2",
+      "id": "barbosa",
+      "style": 3,
+      "subtitle": "Área Tribuária",
+      "title": "Dr. João Barbosa",
+      "description": "João Barbosa é formado em Direito pela Universidade de São Paulo (USP) e possui especialização em Direito Tributário pela Fundação Getúlio Vargas (FGV). Ele trabalhou por 10 anos como consultor tributário em uma grande empresa de auditoria, onde adquiriu vasta experiência em planejamento tributário, contencioso administrativo e judicial, e compliance fiscal. Em 2024, ele decidiu abrir o seu próprio escritório de advocacia, com o objetivo de oferecer soluções jurídicas inteligentes, éticas e inovadoras para os seus clientes. Ele é responsável pela área tributária do Barbosa & Duarte, atendendo clientes de diversos setores e portes.",
+      "img": {
+        "src": "joao-img.png",
+        "alt": "teste",
+        "width": "500px"
+      },
+      "btn": {
+        "visible": false
+      },
+      "colors": {
+        "subtitle": "#C3A985",
+        "title": "#202737",
+        "description": "gray",
+        "background": "white"
+      }
+    }
+  ],
+  "footer": {
+    "email_submit": {
+      "visible": false,
+      "title": "titi",
+      "subtitle": "sub",
+      "input": {
+        "obs": "a função onSubmit se encontra em src/components/Footer/Footer.js na linha 38",
+        "placeholder": "place",
+        "colors": {
+          "background": "red",
+          "border": "purple",
+          "placeholder": "orange",
+          "font": "yellow"
+        },
+        "btn": {
+          "label": "btn",
+          "colors": {
+            "background": "red",
+            "background_hover": "purple",
+            "font": "white",
+            "font_hover": "red"
+          }
+        }
+      }
+    },
+    "contents": [
+      {
+        "title": "Escritório",
+        "links": [
+          { "label": "contato@barbosaduarte.adv.br", "link": "" },
+          { "label": "(11) 98765-4321", "link": "" },
+          { "label": "Localização: Rua da Consolação, 1234, 10º andar, Centro, São Paulo - SP, CEP 01000-000", "link": "" }
+        ]
+      },
+      {
+        "title": "João Barbosa",
+        "links": [
+          { "label": "Linkedin", "link": "#home" },
+          { "label": "Instagram", "link": "#home" },
+          { "label": "Twitter", "link": "#home" },
+          { "label": "TikTok", "link": "#home" }
+        ]
+      },
+      {
+        "title": "Ana Duarte",
+        "links": [
+          { "label": "Linkedin", "link": "#home" },
+          { "label": "Instagram", "link": "#home" },
+          { "label": "Twitter", "link": "#home" },
+          { "label": "TikTok", "link": "#home" }
+        ]
+      }
+    ],
+    "socialMedia": {
+      "facebook": "asd",
+      "instagram": "asd",
+      "youtube": "asd",
+      "x": "asd",
+      "linkedin": "asd"
+    },
+    "footer_text": "Barbosa & Duarte © 2024",
+    "logo": {
+      "img": "bd.png",
+      "label": "",
+      "url": "https://google.com"
+    },
+    "colors": {
+      "background": "#202737",
+      "title": "#C3A985",
+      "subtitle": "white",
+      "font": "white",
+      "font_hover": "#C3A985"
+    }
+  }
+}
