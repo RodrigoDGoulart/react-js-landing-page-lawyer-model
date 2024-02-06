@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 import config from "../../config.json";
 
@@ -111,6 +110,22 @@ export const FooterLinkTitle = styled.h2`
 `;
 
 export const FooterLink = styled('a')`
+  color: ${config.footer.colors.font};
+  text-decoration: none;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  transition: 0.3s ease-out;
+  text-align: center;
+  &:hover {
+    ${({href}) => href ? `
+      color: ${config.footer.colors.font_hover}; 
+    ` : `
+      cursor: default;
+    `}
+  }
+`
+;
+export const FooterNoLink = styled('span')`
   color: ${config.footer.colors.font};
   text-decoration: none;
   margin: auto;

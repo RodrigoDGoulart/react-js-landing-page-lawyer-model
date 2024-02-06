@@ -26,6 +26,7 @@ import {
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
+  FooterNoLink,
 } from "./Footer.elements";
 
 import config from "../../config.json";
@@ -80,8 +81,10 @@ function Footer() {
             <>
               <FooterLinkItems>
                 <FooterLinkTitle>{content.title}</FooterLinkTitle>
-                {content.links.map((link) => (
-                  <FooterLink href={link.link} target="_blank">{link.label}</FooterLink>
+                {content.links.map((link) => link.link ? (
+                  <FooterLink href={link.link} target={link.link ? '_blank' : '_self'}>{link.label}</FooterLink>
+                  ) : (
+                  <FooterNoLink href={link.link} target={link.link ? '_blank' : '_self'}>{link.label}</FooterNoLink>
                 ))}
               </FooterLinkItems>
             </>
