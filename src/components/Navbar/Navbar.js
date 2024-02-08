@@ -46,7 +46,7 @@ function Navbar() {
             }}
           >
             Gostou do modelo? Entre em contato conosco para fazer o seu!
-            Contato: {`(12) 99669-3634`}
+            Contato: {`(12) 98810-7549`}
           </div>
           <Nav>
             <NavbarContainer>
